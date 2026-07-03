@@ -1,1 +1,32 @@
 @import url(reset.css);
+
+body {
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+header #top {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000000;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+header #top img {
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+main {
+  border: 1px solid #000000;
+  margin-top: 70px;
+  margin-left: 40px;
+}
