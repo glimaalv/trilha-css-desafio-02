@@ -1,5 +1,15 @@
 @import url(reset.css);
 
+* {
+  font-family: "Roboto";
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -22,8 +32,16 @@ header #top img {
   object-fit: contain;
 }
 
-main {
+#content {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #000000;
-  margin-top: 70px;
-  margin-left: 40px;
+  margin-left: 30px;
+  gap: 16px;
+}
+
+#content img {
+  height: auto;
+  width: auto;
+  object-fit: contain;
 }
