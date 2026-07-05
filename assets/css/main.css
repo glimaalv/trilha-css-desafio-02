@@ -36,12 +36,15 @@ header #top img {
   display: flex;
   flex-direction: column;
   border: 1px solid #000000;
-  margin-left: 30px;
+  margin-left: 20px;
   gap: 16px;
 }
 
-#content img {
-  height: auto;
-  width: auto;
-  object-fit: contain;
+#content figure img {
+  width: 850;
+}
+
+nav {
+  border: 1px solid #000000;
+  margin-left: 20px;
 }
