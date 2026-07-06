@@ -21,7 +21,6 @@ header {
 header #top {
   display: flex;
   flex-direction: row;
-  border: 1px solid #000000;
   justify-content: space-between;
   padding: 0.5rem;
 }
@@ -35,7 +34,6 @@ header #top img {
 #content {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000000;
   margin-left: 20px;
   gap: 16px;
 }
@@ -47,4 +45,14 @@ header #top img {
 nav {
   border: 1px solid #000000;
   margin-left: 20px;
+}
+
+.recomendations {
+  display: flex;
+  flex-direction: column;
+}
+
+.recomended-videos {
+  display: flex;
+  flex-direction: row;
 }
