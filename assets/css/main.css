@@ -43,16 +43,5 @@ header #top img {
 }
 
 nav {
-  border: 1px solid #000000;
   margin-left: 20px;
-}
-
-.recomendations {
-  display: flex;
-  flex-direction: column;
-}
-
-.recomended-videos {
-  display: flex;
-  flex-direction: row;
 }
