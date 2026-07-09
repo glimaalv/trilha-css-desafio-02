@@ -14,11 +14,6 @@ O foco central deste desafio foi **treinar o uso de Flexbox** para a construçã
 
 - **HTML5:** Para a estruturação semântica da página (uso correto de tags como `<main>`, `<aside>`, `<nav>`, entre outras).
 - **CSS3:** Para a estilização, definição de cores, tipografia e toda a mecânica de posicionamento com **Flexbox**.
-
-## 🚀 Como Executar o Projeto
-
-1. Faça o clone ou baixe os arquivos deste repositório.
-2. Abra o arquivo `index.html` diretamente em qualquer navegador web, ou utilize a extensão **Live Server** no VS Code para rodar um servidor local (geralmente em `http://127.0.0.1:5500`).
-
+  
 ---
 Desenvolvido por Gustavo Alves como projeto prático de estudos.
